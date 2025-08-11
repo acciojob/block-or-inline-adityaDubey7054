@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs. Inline Elements</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>Identifying Block vs. Inline Elements</h1>
+
+    <!-- Test for <button> element -->
+    <div class="divblock">
+        <button data-ns-test="block-inline-button">Test1</button>
+        <button data-ns-test="block-inline-button">Test2</button>
+        Answer: Inline
+    </div>
+
+    <!-- Test for <div> element -->
+    <div class="divblock">
+        <div data-ns-test="block-inline-div">Test1</div>
+        <div data-ns-test="block-inline-div">Test2</div>
+        Answer: Block
+    </div>
+
+    <!-- Test for <span> element -->
+    <div class="divblock">
+        <span data-ns-test="block-inline-span">Test1</span>
+        <span data-ns-test="block-inline-span">Test2</span>
+        Answer: Inline
+    </div>
+
+    <!-- Test for <p> element -->
+    <div class="divblock">
+        <p data-ns-test="block-inline-p">Test1</p>
+        <p data-ns-test="block-inline-p">Test2</p>
+        Answer: Block
+    </div>
+
+    <!-- Test for <input> element -->
+    <div class="divblock">
+        <input data-ns-test="block-inline-input" value="Test1">
+        <input data-ns-test="block-inline-input" value="Test2">
+        Answer: Inline
+    </div>
+
+    <!-- Test for <cite> element -->
+    <div class="divblock">
+        <cite data-ns-test="block-inline-cite">Test1</cite>
+        <cite data-ns-test="block-inline-cite">Test2</cite>
+        Answer: Inline
+    </div>
+
+    <!-- Test for <code> element -->
+    <div class="divblock">
+        <code data-ns-test="block-inline-code">Test1</code>
+        <code data-ns-test="block-inline-code">Test2</code>
+        Answer: Inline
+    </div>
+
+    <!-- Test for <h1> element -->
+    <div class="divblock">
+        <h1 data-ns-test="block-inline-h1">Test1</h1>
+        <h1 data-ns-test="block-inline-h1">Test2</h1>
+        Answer: Block
+    </div>
+
+    <!-- Test for <sup> element -->
+    <div class="divblock">
+        <sup data-ns-test="block-inline-sup">Test1</sup>
+        <sup data-ns-test="block-inline-sup">Test2</sup>
+        Answer: Inline
+    </div>
+
+    <!-- Test for <sub> element -->
+    <div class="divblock">
+        <sub data-ns-test="block-inline-sub">Test1</sub>
+        <sub data-ns-test="block-inline-sub">Test2</sub>
+        Answer: Inline
+    </div>
 
 </body>
-
 </html>
